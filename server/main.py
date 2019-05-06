@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/smacc")
 def smacc():
     try:
-        print("sfs")
+        print("eggplant smacc time")
         return ("ok")
     except:
         return("big uh oh")
