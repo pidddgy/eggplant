@@ -4,11 +4,13 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        http://surviv.io/
+// @match        http://2dbattleroyale.com/
 // @grant        none
+// @require http://code.jquery.com/jquery-3.3.1.min.js
 // ==/UserScript==
 
 (function() {
+    var $ = window.$;
     'use strict';
 
     // Your code here...
@@ -24,7 +26,17 @@
             if (mutation.type == 'attributes') {
                 if(prev) {
                     var cur = target.style.width.slice(0, target.style.width.length-1);
-                    if(cur < prev) console.log("eggplant smacc time");
+                    if(cur < prev) {
+                        console.log("eggplant smacc time");
+                        $.ajax({
+                            url: "http://localhost:5000/smacc",
+                            success: function(){
+                              console.log("done");
+                            }
+                        });
+                        
+                        
+                    }
                 }
 
                 prev = parseInt( target.style.width.slice(0, target.style.width.length-1));
