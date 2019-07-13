@@ -1,7 +1,5 @@
 # eggplant
-it's a lego robot that spanks you whenever you take damage in surviv.io(browser-based fortnite knockoff)
-
-
+it's a lego robot that spanks you whenever you take damage in surviv.io(browser-based fortnite knockoff), in order to help you get better and improve your skills! it's a negative reinforcement tactic.
 
 [video demo](https://drive.google.com/file/d/1XgZ6uQM7r_KtGDrYRe5BkncKOD4jvILt/view)
 
