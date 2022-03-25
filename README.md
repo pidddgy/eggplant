@@ -8,5 +8,3 @@ it's a lego robot that spanks you whenever you take damage in surviv.io(browser-
 I did end up separating the motor from the brick which made it fall over less. Unfortunately don't have a video of the improved version because it was made for a school project with school-borrowed materials, so I had to return all the hardware :(
 
 made with: tampermonkey script on browser, flask on the robot side, ev3 kit, the box that the ev3 kit came in as a base, two belts to strap the thing down
-
-next steps: create a stronger arm design that is able to support the weight of an eggplant, so that the end user can be spanked with an eggplant.
